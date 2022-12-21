@@ -1,0 +1,72 @@
+.bonus {
+  padding: 100px 0 70px;
+  background-color: #fafafa;
+  .bonus-cards {
+    margin: 0 30px;
+    .card {
+      background-color: transparent;
+      border: 0;
+      text-align: center;
+      .card-icon {
+        position: relative;
+        display: inline;
+        align-self: center;
+        max-width: 110px;
+        margin-bottom: 30px;
+        span {
+          position: absolute;
+          left: -6px;
+          top: -13px;
+          width: 40px;
+          height: 40px;
+          line-height: 37px;
+          font-size: 16px;
+          color: #fff;
+          border-radius: 50%;
+        }
+        .point-orange {
+          background: $orange;
+          border: 1px solid $orange;
+        }
+        .point-purple {
+          background: $purple;
+          border: 1px solid $purple;
+        }
+        .point-green {
+          background: $green;
+          border: 1px solid $green;
+        }
+        a {
+          width: 100px;
+          height: 100px;
+          line-height: 97px;
+          font-size: 36px;
+          box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+          border-radius: 50%;
+          padding: 30px 35px;
+          background: #fff;
+        }
+        .briefcase {
+          color: $orange;
+        }
+        .layer {
+          color: $purple;
+        }
+        .chart {
+          color: $green;
+        }
+      }
+      .card-body {
+        .card-title {
+          font-size: 22px;
+          line-height: 34px;
+          font-weight: 600;
+          text-transform: capitalize;
+          color: #151b2c;
+          max-width: 270px;
+          margin: 0px auto;
+        }
+      }
+    }
+  }
+}

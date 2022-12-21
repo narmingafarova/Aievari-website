@@ -1,0 +1,16 @@
+.btn {
+  font-size: 15px;
+  font-weight: 700;
+  color: $white;
+  background: $orange;
+  border: 1px solid $orange;
+  border-radius: 3px;
+  padding: 10px 25px;
+  transition: 0.4s;
+  &:hover {
+    border: 1px solid $orange;
+    color: $orange;
+    background: transparent;
+    transition: 0.4s;
+  }
+}

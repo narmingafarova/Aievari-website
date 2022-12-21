@@ -1,0 +1,554 @@
+.btn {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background: #e6922e;
+  border: 1px solid #e6922e;
+  border-radius: 3px;
+  padding: 10px 25px;
+  transition: 0.4s;
+}
+.btn:hover {
+  border: 1px solid #e6922e;
+  color: #e6922e;
+  background: transparent;
+  transition: 0.4s;
+}
+
+.title {
+  text-align: center;
+}
+.title h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 46px;
+  color: #151b2c;
+  margin: 0 0 15px;
+}
+.title p {
+  font-size: 16px;
+  color: #5d6471;
+  max-width: 510px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 44px;
+  height: 44px;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  background-color: #e6922e;
+  transition: 1s;
+  z-index: 3;
+}
+.scroll:hover {
+  bottom: 45px;
+  color: #fff;
+}
+
+.navigation {
+  position: relative;
+  height: 98vh;
+  background-image: url(https://rockstheme.com/rocks/aievari-live/img/slider/h1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 20;
+}
+.navigation nav {
+  background-color: #fff;
+  padding: 0;
+}
+.navigation nav .nav .nav-item .nav-link {
+  color: #151b2c;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 33px 15px;
+  text-transform: uppercase;
+}
+.navigation nav .nav .nav-item .nav-link:hover {
+  color: #e6922e;
+}
+.navigation nav .nav .dropdown ul {
+  transition: 1s;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+.navigation nav .nav .dropdown ul li {
+  list-style: none;
+  padding: 5px 0;
+  transition: 1s;
+}
+.navigation nav .nav .dropdown ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3d5368;
+  padding: 5px;
+}
+.navigation nav .nav .dropdown ul li:hover a {
+  background-color: transparent;
+  color: #e6922e;
+}
+.navigation nav .nav .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.navigation .head-info {
+  padding-top: 30vh;
+  text-align: center;
+}
+.navigation .head-info h2 {
+  font-size: 90px;
+  line-height: 92px;
+  margin: 0px auto;
+  color: #fff;
+  padding-bottom: 20px;
+  max-width: 900px;
+  font-weight: 700;
+}
+.navigation .head-info .info-btns .btn-ready {
+  width: 160px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 2px;
+  padding: 12px 10px;
+  margin-top: 20px;
+}
+.navigation .head-info .info-btns .btn-ready:hover {
+  border: 0;
+  background-color: #fff;
+}
+.navigation .head-info .info-btns .video-con {
+  margin: 0;
+}
+.navigation .head-info .info-btns .video-con a {
+  margin-top: 20px;
+}
+.navigation .head-info .info-btns .video-con a i {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  background: #fff;
+  color: #e6922e;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+.navigation .head-info .info-btns .video-con a span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.navigation .head-info .info-btns .video-con a:hover i {
+  background: #e6922e;
+  color: #fff;
+}
+.navigation .head-info .info-btns .video-con a:hover span {
+  color: #e6922e;
+}
+.navigation::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 24, 40, 0.8);
+  z-index: -1;
+}
+
+.totals .card {
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  border-bottom: 1px solid #e6922e;
+}
+.totals .card .card-icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #e6922e;
+  border-radius: 50%;
+}
+.totals .card .card-icon i {
+  position: absolute;
+  top: 39px;
+  right: 24px;
+  color: #eee;
+}
+.totals .card .card-icon .fa-gifts {
+  top: 38px;
+  right: 19px;
+}
+.totals .card .card-icon .fa-money-check-alt {
+  top: 40px;
+  right: 22px;
+}
+.totals .card .card-body .card-title {
+  color: #444;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+.totals .card .card-body .card-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #151b2c;
+}
+
+.investment {
+  background-color: #fafafa;
+}
+.investment .invest-cards .card {
+  padding: 30px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6922e;
+  overflow: hidden;
+}
+.investment .invest-cards .card .card-body {
+  position: relative;
+}
+.investment .invest-cards .card .card-body .card-title .green-card-info {
+  text-align: center;
+  position: absolute;
+  top: -8px;
+  right: -83px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 28px;
+  color: #fff;
+  background-color: #1aa15f;
+  transform: rotate(45deg);
+  width: 180px;
+}
+.investment .invest-cards .card .card-body .card-title .percent {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #e6922e;
+  padding-right: 10px;
+}
+.investment .invest-cards .card .card-body .card-title .daily {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444;
+}
+.investment .invest-cards .card .card-body .card-per-day {
+  font-size: 24px;
+  font-weight: 600;
+  color: #444;
+  margin-top: 15px;
+}
+.investment .invest-cards .card .card-body .card-texts {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.investment .invest-cards .card .card-body .card-texts .card-text {
+  font-size: 15px;
+  line-height: 26px;
+  color: #5d6471;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.plans {
+  padding: 100px 0 75px;
+}
+.plans .card {
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6922e;
+  padding: 40px;
+  transition: 0.4s;
+}
+.plans .card a {
+  font-size: 15px;
+  color: #e6922e;
+  line-height: 70px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #e6922e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.plans .card .card-body .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #151b2c;
+}
+.plans .card .card-body .card-text {
+  color: #5d6471;
+}
+.plans .card:hover {
+  background-color: #e6922e;
+}
+.plans .card:hover a {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.plans .card:hover .card-body .card-title {
+  color: #fff;
+}
+.plans .card:hover .card-body .card-text {
+  color: #fff;
+}
+
+.ceo {
+  background-image: url(https://rockstheme.com/rocks/aievari-live/img/background/ag1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+}
+.ceo .ceo-info {
+  background: #fff;
+  padding: 50px 30px 50px 50px;
+  border-radius: 4px;
+}
+.ceo .ceo-info p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  margin: 0 0 15px;
+  color: #151b2c;
+}
+.ceo .ceo-info span {
+  font-size: 18px;
+  line-height: 26px;
+  color: #666;
+}
+.ceo::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 34, 65, 0.4);
+  z-index: -1;
+}
+
+.bonus {
+  padding: 100px 0 70px;
+  background-color: #fafafa;
+}
+.bonus .bonus-cards {
+  margin: 0 30px;
+}
+.bonus .bonus-cards .card {
+  background-color: transparent;
+  border: 0;
+  text-align: center;
+}
+.bonus .bonus-cards .card .card-icon {
+  position: relative;
+  display: inline;
+  align-self: center;
+  max-width: 110px;
+  margin-bottom: 30px;
+}
+.bonus .bonus-cards .card .card-icon span {
+  position: absolute;
+  left: -6px;
+  top: -13px;
+  width: 40px;
+  height: 40px;
+  line-height: 37px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 50%;
+}
+.bonus .bonus-cards .card .card-icon .point-orange {
+  background: #e6922e;
+  border: 1px solid #e6922e;
+}
+.bonus .bonus-cards .card .card-icon .point-purple {
+  background: #b91ca8;
+  border: 1px solid #b91ca8;
+}
+.bonus .bonus-cards .card .card-icon .point-green {
+  background: #1aa15f;
+  border: 1px solid #1aa15f;
+}
+.bonus .bonus-cards .card .card-icon a {
+  width: 100px;
+  height: 100px;
+  line-height: 97px;
+  font-size: 36px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  padding: 30px 35px;
+  background: #fff;
+}
+.bonus .bonus-cards .card .card-icon .briefcase {
+  color: #e6922e;
+}
+.bonus .bonus-cards .card .card-icon .layer {
+  color: #b91ca8;
+}
+.bonus .bonus-cards .card .card-icon .chart {
+  color: #1aa15f;
+}
+.bonus .bonus-cards .card .card-body .card-title {
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #151b2c;
+  max-width: 270px;
+  margin: 0px auto;
+}
+
+.tables {
+  background-image: url(https://rockstheme.com/rocks/aievari-live/img/background/bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 100px 0 70px;
+}
+.tables .table-items .table-item {
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-top: 5px solid #e6922e;
+}
+.tables .table-items .table-item .table-backpart h4 {
+  display: inline-block;
+  font-size: 26px;
+  line-height: 34px;
+  background: #e6922e;
+  margin-bottom: 25px;
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+.tables .table-items .table-item .table-backpart span {
+  font-size: 28px;
+  height: 54px;
+  color: #fff;
+  background-color: #e6922e;
+  padding: 10px 20px;
+  border-radius: 3px;
+  line-height: 32px;
+}
+.tables .table-items .table-item table,
+.tables .table-items .table-item .table-active {
+  font-size: 16px;
+  line-height: 26px;
+  color: #5d6471;
+  -webkit-animation: name duration timing-function delay iteration-count direction fill-mode;
+          animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+.tables::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: -1;
+}
+
+.sign {
+  background-image: url(https://rockstheme.com/rocks/aievari-live/img/background/fg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 100px 0px;
+  text-align: center;
+}
+.sign .sign-content h3 {
+  color: #fff;
+  font-size: 40px;
+  max-width: 840px;
+  margin: 0 auto 40px;
+  line-height: 46px;
+  font-weight: 600;
+}
+.sign .sign-content .btn {
+  border: 1px solid #e6922e;
+  display: inline-block;
+  padding: 12px 25px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background: #e6922e;
+  border-radius: 2px;
+}
+.sign .sign-content .btn:hover {
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+.sign::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(6, 34, 65, 0.7) none repeat scroll 0 0;
+  z-index: -1;
+}
+
+.news {
+  padding: 100px 0 70px;
+  background-color: #fafafa;
+}
+.news .card {
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  background-color: #fafafa;
+}
+.news .card .card-body {
+  padding: 30px;
+}
+.news .card .card-body .card-title {
+  margin-bottom: 15px;
+}
+.news .card .card-body .card-title span {
+  color: #757b82;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 10px;
+}
+.news .card .card-body .card-title span i {
+  color: #e6922e;
+  margin-right: 5px;
+}
+.news .card .card-body .card-text {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #2a354e;
+  transition: 0.4s;
+}
+.news .card .card-body .card-text a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.news .card .card-body .card-text a:hover {
+  color: #e6922e;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,130 @@
+.navigation {
+  position: relative;
+  height: 98vh;
+  background-image: url(https://rockstheme.com/rocks/aievari-live/img/slider/h1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 20;
+  nav {
+    background-color: $white;
+    padding: 0;
+    .nav {
+      .nav-item {
+        .nav-link {
+          color: $dark_blue;
+          font-size: 16px;
+          font-weight: 700;
+          padding: 33px 15px;
+          text-transform: uppercase;
+          &:hover {
+            color: $orange;
+          }
+        }
+      }
+      .dropdown {
+        ul {
+          transition: 1s;
+          background-color: $white;
+          padding: 10px;
+          border-radius: 3px;
+          box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+          li {
+            list-style: none;
+            padding: 5px 0;
+            transition: 1s;
+            a {
+              text-decoration: none;
+              font-size: 14px;
+              font-weight: 700;
+              text-transform: uppercase;
+              color: #3d5368;
+              padding: 5px;
+            }
+            &:hover {
+              a {
+                background-color: transparent;
+                color: $orange;
+              }
+            }
+          }
+        }
+        &:hover {
+          .dropdown-menu {
+            display: block;
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+  .head-info {
+    padding-top: 30vh;
+    text-align: center;
+    h2 {
+      font-size: 90px;
+      line-height: 92px;
+      margin: 0px auto;
+      color: $white;
+      padding-bottom: 20px;
+      max-width: 900px;
+      font-weight: 700;
+    }
+    .info-btns {
+      .btn-ready {
+        width: 160px;
+        font-size: 16px;
+        border: 0;
+        border-radius: 2px;
+        padding: 12px 10px;
+        margin-top: 20px;
+        &:hover {
+          border: 0;
+          background-color: $white;
+        }
+      }
+      .video-con {
+        margin: 0;
+        a {
+          margin-top: 20px;
+          i {
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            background: $white;
+            color: $orange;
+            margin-right: 10px;
+            transition: 0.4s;
+          }
+          span {
+            color: $white;
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.4s;
+          }
+          &:hover {
+            i {
+              background: $orange;
+              color: $white;
+            }
+            span {
+              color: $orange;
+            }
+          }
+        }
+      }
+    }
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 24, 40, 0.8);
+    z-index: -1;
+  }
+}

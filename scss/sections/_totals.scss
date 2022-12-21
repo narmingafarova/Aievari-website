@@ -1,0 +1,44 @@
+.totals {
+  .card {
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    border-radius: 0;
+    border-bottom: 1px solid $orange;
+    .card-icon {
+      position: relative;
+      width: 80px;
+      height: 80px;
+      background-color: $orange;
+      border-radius: 50%;
+      i {
+        position: absolute;
+        top: 39px;
+        right: 24px;
+        color: #eee;
+      }
+      .fa-gifts {
+        top: 38px;
+        right: 19px;
+      }
+      .fa-money-check-alt {
+        top: 40px;
+        right: 22px;
+      }
+    }
+    .card-body {
+      .card-title {
+        color: $black_grey;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 2px;
+      }
+      .card-text {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34px;
+        color: $dark_blue;
+      }
+    }
+  }
+}

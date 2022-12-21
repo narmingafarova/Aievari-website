@@ -1,0 +1,17 @@
+.scroll {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 44px;
+    height: 44px;
+    font-size: 28px;
+    text-align: center;
+    color: $white;
+    background-color: $orange;
+    transition: 1s;
+    z-index: 3;
+    &:hover {
+        bottom: 45px;
+        color: $white;
+    }
+}

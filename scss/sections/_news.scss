@@ -1,0 +1,38 @@
+.news {
+  padding: 100px 0 70px;
+  background-color: #fafafa;
+  .card {
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    background-color: #fafafa;
+    .card-body {
+      padding: 30px;
+      .card-title {
+        margin-bottom: 15px;
+        span {
+          color: #757b82;
+          font-size: 14px;
+          font-weight: 400;
+          padding-right: 10px;
+          i {
+            color: $orange;
+            margin-right: 5px;
+          }
+        }
+      }
+      .card-text {
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #2a354e;
+        transition: 0.4s;
+        a {
+          text-decoration: none;
+          cursor: pointer;
+          &:hover {
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+}

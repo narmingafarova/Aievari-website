@@ -1,0 +1,47 @@
+.plans {
+  padding: 100px 0 75px;
+  .card {
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    border: 1px solid $orange;
+    padding: 40px;
+    transition: 0.4s;
+    a {
+      font-size: 15px;
+      color: $orange;
+      line-height: 70px;
+      width: 70px;
+      height: 70px;
+      border: 1px solid $orange;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+    .card-body {
+      .card-title {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34px;
+        color: $dark_blue;
+      }
+      .card-text {
+        color: $light_grey;
+      }
+    }
+    &:hover {
+      background-color: $orange;
+      a {
+        color: $white;
+        border: 1px solid $white;
+      }
+      .card-body {
+        .card-title {
+          color: $white;
+        }
+        .card-text {
+          color: $white;
+        }
+      }
+    }
+  }
+}

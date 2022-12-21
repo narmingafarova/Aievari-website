@@ -1,0 +1,17 @@
+.title {
+  text-align: center;
+  h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46px;
+    color: $dark_blue;
+    margin: 0 0 15px;
+  }
+  p {
+    font-size: 16px;
+    color: $light_grey;
+    max-width: 510px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+  }
+}
